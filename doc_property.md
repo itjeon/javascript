@@ -8,14 +8,14 @@
 ## 프로퍼티의 종료
 
 ### 데이터 프로퍼티(data property)
-###### 속성
+#### 속성
 - value : 모든 자료형 지정 가능
  - writable : 변경 가능여부
  - enumerable : for-in 구문을 이용해 열거 가능 여부
  - configurable : 제거 가능 여부, 접근 프로퍼티 변경 가능 여부, 쓰기 불가 여부, enumerable 속성의 수정 가능 여부
  
 ### 접근 프로퍼티(access property)
-###### 속성
+#### 속성
 - get accessor : Function or undefined
 - set accessor : Function or undefined
  - enumerable : for-in 구문을 이용해 열거 가능 여부
