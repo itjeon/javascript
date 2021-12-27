@@ -57,6 +57,25 @@ member.work();      // I'm working on 2 tasks
 
 console.log(User.prototype === TeamMember.prototype); // false
 console.log(User.prototype.constructor === TeamMember.prototype.constructor); // true
+
+console.log(member instanceof TeamMember);  // true
+console.log(member instanceof User);        // true
+console.log(member instanceof Object);      // true
+
+User.prototype.eat = function(){
+    console.log('What will I have for lunch?');
+};
+member.eat();   // What will I have for lunch?
+
+// 최상위 객체에 메소드 추가
+Object.prototype.move = function(){
+    console.log('Every object can move now');
+};
+member.move();  // 이제 모든 객체가 move를 호출할 수 있다
+
+var alien = {}; // 이제 모든 객체가 move를 호출할 수 있다
+alien.move();   // 이제 모든 객체가 move를 호출할 수 있다
+User.move();    // 이제 모든 객체가 move를 호출할 수 있다
 ```
 
 ### [<-Main](https://github.com/itjeon/javascript)
