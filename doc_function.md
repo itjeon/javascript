@@ -20,4 +20,4 @@
   ```
 
 
-### [<-Main](https://github.com/itjeon/git_doc/blob/master/README.md)
+### [<-Main](https://github.com/itjeon/javascript)
