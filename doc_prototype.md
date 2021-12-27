@@ -68,6 +68,7 @@ User.prototype.eat = function(){
 member.eat();   // What will I have for lunch?
 
 // 최상위 객체에 메소드 추가
+// 모든 객체에 메소드가 추가되므로 매우 안 좋은 방식이다.
 Object.prototype.move = function(){
     console.log('Every object can move now');
 };
