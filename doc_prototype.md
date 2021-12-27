@@ -52,8 +52,8 @@ TeamMember.prototype.work = function(){
 	console.log('I\'m working on ' + this.tasks.length + ' tasks');
 };
 var  member = new  TeamMember('Sunny', ['Traveling'], ['Buy three tickets', 'Book a hotel.']);
-member.greeting();
-member.work();
+member.greeting();  // I'm Sunny. Welcome to the team!
+member.work();      // I'm working on 2 tasks
 
 console.log(User.prototype === TeamMember.prototype); // false
 console.log(User.prototype.constructor === TeamMember.prototype.constructor); // true
