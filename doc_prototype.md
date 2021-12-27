@@ -79,4 +79,17 @@ alien.move();   // 이제 모든 객체가 move를 호출할 수 있다
 User.move();    // 이제 모든 객체가 move를 호출할 수 있다
 ```
 
+프로토타입 객체는 최상위 Object객체부터의 상속을 참조하므로 조심해서 사용해야 하며 이 프로퍼티를 잘 못 변경하면 상속이 깨진다.
+```
+console.log(member.__proto__ === TeamMember.prototype);             // true
+console.log(TeamMember.prototype.__proto__ === User.prototype);     // true
+console.log(User.prototype.__proto__ === Object.prototype);         // true
+
+User.prototype.__proto__ = null;
+// member.move();  // Uncaught TypeError: member.move is not a function
+console.log(member instanceof Object);  // false
+```
+
+
+
 ### [<-Main](https://github.com/itjeon/javascript)
