@@ -89,7 +89,7 @@ User.prototype.__proto__ = null;
 // member.move();  // Uncaught TypeError: member.move is not a function
 console.log(member instanceof Object);  // false
 ```
-
+[jsfiddle](https://jsfiddle.net/itjeon/n82hpqf1/)
 
 
 ### [<-Main](https://github.com/itjeon/javascript)
