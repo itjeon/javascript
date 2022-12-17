@@ -24,6 +24,8 @@
 ## 프로퍼티의 수정
 
 Object.defineProperty 또는 Object.defineProperties를 사용해 수정이 가능하다.
+
+[[jsfiddle](https://jsfiddle.net/itjeon/0e1ysurv/)]
 ````
 function  User(name, department){
 	var  _department = department;
@@ -67,7 +69,7 @@ user.greeting();
 // 	enumerable:false
 // }); 
 
-// configurable: false 이므로 오류발생
+// configurable: false 이므로 삭제 안됨
 delete  user.name; 
 
 // configurable: true 삭제
