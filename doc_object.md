@@ -2,7 +2,7 @@
 
 ###### 객체를 생성하는 방식
 
-1. <a href="https://jsfiddle.net/itjeon/gw6c104q/" target="_blank">Object() 생성자</a> : 객체 래퍼(Wrapper)를 생성, 비권장, 객체리터럴 방식이 낫다
+1. <a href="https://jsfiddle.net/itjeon/gw6c104q/1" target="_blank">Object() 생성자</a> : 객체 래퍼(Wrapper)를 생성, 비권장, 객체리터럴 방식이 낫다
   
   ```
   // new를 활용한 Object 생성자 호출
