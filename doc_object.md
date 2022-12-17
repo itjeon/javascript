@@ -2,7 +2,7 @@
 
 ###### 객체를 생성하는 방식
 
-1. [Object() 생성자](https://jsfiddle.net/itjeon/gw6c104q/) : 객체 래퍼(Wrapper)를 생성, 비권장, 객체리터럴 방식이 낫다
+1. <a href="https://jsfiddle.net/itjeon/gw6c104q/" target="_blank">Object() 생성자</a> : 객체 래퍼(Wrapper)를 생성, 비권장, 객체리터럴 방식이 낫다
   
   ```
   // new를 활용한 Object 생성자 호출
@@ -15,7 +15,7 @@
   user.greeting();    // Hi, I'm Sunny.
   ```
   
-2. [객체리터럴](https://jsfiddle.net/itjeon/gw6c104q/6/)
+2. <a href="https://jsfiddle.net/itjeon/gw6c104q/6/" target="_blank">객체리터럴</a>
   
   ```
   // 객체 리터럴을 활용한 user 생성
@@ -37,7 +37,7 @@
   console.log(user.role);     // Engineer
   ```
   
-3. [생성자 함수](https://jsfiddle.net/itjeon/gw6c104q/7/)
+3. <a href="https://jsfiddle.net/itjeon/gw6c104q/7/" target="_blank">생성자 함수</a>
   
   ```
   // 생성자 함수 생성
@@ -54,7 +54,7 @@
   user.greeting();            // Hi, I'm Sunny.
   ```
   
-4. [Object.create()](https://jsfiddle.net/itjeon/gw6c104q/8/)
+4. <a href="https://jsfiddle.net/itjeon/gw6c104q/8/" target="_blank">Object.create()</a>
   
   ```
   // 위에서 생성한 User 생성자 함수의 프로토타입과 Object.create() 메소드 활용
@@ -70,7 +70,7 @@
   user.greeting();            // Hi, I'm Sunny.
   ```
   
-5. [생성함수](https://jsfiddle.net/itjeon/gw6c104q/10)
+5. <a href="https://jsfiddle.net/itjeon/gw6c104q/10" target="_blank">생성함수</a>
   
   ```
   // 객체를 반환하는 생성 함수 사용
@@ -89,7 +89,7 @@
   user.greeting();            // Hi, I'm Sunny.
   ```
   
-6. [ES6의 클래스 선언](https://jsfiddle.net/itjeon/gw6c104q/11/)
+6. <a href="https://jsfiddle.net/itjeon/gw6c104q/11/" target="_blank">ES6의 클래스 선언</a>
   ```
   // User 클래스 생성
   class User{
@@ -108,7 +108,7 @@
   let user = new User('Sunny', ['Traveling', 'Swimming']);
   user.greeting();            // Hi, I'm Sunny.
   ```
-7. [ES6의 클래스 표현식](https://jsfiddle.net/itjeon/gw6c104q/12/)
+7. <a href="https://jsfiddle.net/itjeon/gw6c104q/12/" target="_blank">ES6의 클래스 표현식</a>
   ```
   let User = class {
   	// User 생성자 함수와 상응
