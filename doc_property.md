@@ -81,6 +81,4 @@ for(var  prop  in  user){
 }
 ````
 
-![객체구성도](./resources/img/property_structure.png)
-
 ### [<-Main](https://github.com/itjeon/javascript)
